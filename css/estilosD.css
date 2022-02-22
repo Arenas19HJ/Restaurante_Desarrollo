@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Pacifico&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Pacifico', cursive;
+}
+body {
+    background: #DEDEDE;
+    display: flex;
+    min-height: 100vh;
+}
+form {
+    margin: auto;
+    width: 50%;
+    max-width: 500px;
+    background: #F3F3F3;
+    padding: 30px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color:black;
+}
+input[type="text"] {
+    display: block;
+    padding: 5px;
+    width: 90%;
+    margin: 20px 0;
+    font-size: 20px;
+}
+input[type="password"] {
+    display: block;
+    padding: 5px;
+    width: 90%;
+    margin: 20px 0;
+    font-size: 20px;
+}
+input[type="submit"] {
+    display: block;
+    padding: 5px;
+    width: 90%;
+    margin: 20px ;
+    font-size: 20px;
+}
+.cuadro{
+    height: 10px;
+    background: #F3F3F3;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.registra{
+    display: block;
+    padding: 5px;
+    width: 90%;
+    margin: 20px ;
+    font-size: 20px;
+}
+.btn{
+    background: #DE423A;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    
+}
